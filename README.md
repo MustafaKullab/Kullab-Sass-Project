@@ -32,15 +32,9 @@ The goal of this project is not just building a UI, but learning how to:
 
 ---
 
-## 📸 Preview
-
-![Preview](./images/preview.png)
-
----
-
 ## 🌐 Live Demo
 
-👉 https://mustafakullab.github.io/YOUR-REPO-NAME/
+👉 [https://mustafakullab.github.io/YOUR-REPO-NAME/](https://mustafakullab.github.io/Kullab-Sass-Project/)
 
 ---
 
