@@ -1,0 +1,58 @@
+# 🚀 Kullab Sass Project
+
+This project is focused on practicing Sass (SCSS) and building a scalable and maintainable styling architecture.
+
+---
+
+## ✨ Overview
+
+The goal of this project is not just building a UI, but learning how to:
+
+- Structure styles using Sass
+- Use variables, mixins, and nesting
+- Organize CSS in a clean and scalable way
+
+---
+
+## ⚡ Features
+
+- 🎨 Built with Sass (SCSS)
+- 📦 Modular file structure
+- 🔁 Reusable mixins & variables
+- 📱 Responsive design
+- 🧩 Organized styling system
+
+---
+
+## 🛠️ Built With
+
+- HTML5  
+- Sass (SCSS)  
+- CSS3  
+
+---
+
+## 📸 Preview
+
+![Preview](./images/preview.png)
+
+---
+
+## 🌐 Live Demo
+
+👉 https://mustafakullab.github.io/YOUR-REPO-NAME/
+
+---
+
+## 📚 What I Learned
+
+- Writing clean and maintainable Sass
+- Structuring large stylesheets
+- Using variables and mixins effectively
+- Improving CSS scalability
+
+---
+
+## 📌 Notes
+
+This project is part of my frontend journey focusing on mastering Sass and improving code quality.
