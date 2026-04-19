@@ -1,0 +1,163 @@
+@import './Sass/helpers/variables';
+
+// Float Positions Variables 
+$float-left: right;
+$float-right: left;
+
+// Text Positions Variables 
+$text-left: right;
+$text-right: left;
+
+/* Start Header */
+
+.header {
+    .logo {
+        float: $float-left;
+        text-align: $text-left;
+    }
+
+    .toggle {
+        float: $float-right;
+    }
+
+    .links {
+        float: $float-left;
+
+        li {
+            float: $float-left;
+
+            @media #{$maxMobile} {
+                text-align: $text-left;
+            }
+        }
+    }
+}
+
+/* End Header */
+
+/* Start Solder */
+.solder {
+    .bullets {
+        direction: rtl;
+    }
+}
+
+/* End Solder */
+/*Start Services */
+.services {
+    .serv-box {
+        float: $float-left;
+    }
+
+    .serv-box {
+        .info {
+            i {
+                float: $float-left;
+            }
+
+            h3 {
+                float: $float-left;
+            }
+        }
+
+        p {
+            text-align: $text-left;
+        }
+
+        a {
+            text-align: $text-left;
+        }
+    }
+}
+
+/*End Services */
+
+/*Start Players */
+.players {
+    .player-box {
+        float: $float-left;
+
+        .name {
+            text-align: $text-left;
+        }
+
+        p {
+            text-align: $text-left;
+        }
+
+        a {
+            text-align: $text-left;
+        }
+    }
+}
+
+/*End Players */
+
+/*Start Lorem */
+.lorem {
+    .img-box {
+        float: $float-left;
+    }
+}
+
+/*End Lorem */
+
+/*Start Footer */
+.footer {
+
+    .gallery {
+        float: $float-left;
+
+        .gallery-box {
+            .image {
+                float: $float-left;
+
+                @media #{$maxMobile} {
+                    float: none;
+                    margin: 0 auto;
+                }
+            }
+
+            .info {
+                float: $float-left;
+
+                @media #{$maxMobile} {
+                    float: none;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .details {
+        float: $float-left;
+
+        .working {
+            color: $grayColor;
+        }
+    }
+
+    .contact {
+        float: $float-left;
+
+        form {
+            text-align: $text-left;
+        }
+    }
+
+
+    .copyright {
+
+        span {
+            float: $float-left;
+            text-align: $text-left;
+
+            &:last-of-type {
+                text-align: $float-right;
+            }
+        }
+    }
+}
+
+/*End Footer */

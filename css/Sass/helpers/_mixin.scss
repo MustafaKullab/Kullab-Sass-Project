@@ -1,0 +1,26 @@
+// Overlay Mixin 
+@mixin overlay($color , $opacity) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+    opacity: $opacity;
+}
+
+// Prefixes Mixin
+@mixin prefix($property , $value , $prefixies: ()) {
+    @each $prefix in $prefixies {
+        -#{$prefix}-#{$property} : #{$value};
+    }
+
+    #{$property}: #{$value};
+}
+
+// KeyFrames Mixin
+@mixin KeyFrame ($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}

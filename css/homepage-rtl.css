@@ -1,0 +1,110 @@
+/* Start Header */
+.header .logo {
+  float: right;
+  text-align: right;
+}
+.header .toggle {
+  float: left;
+}
+.header .links {
+  float: right;
+}
+.header .links li {
+  float: right;
+}
+@media (max-width:767px) {
+  .header .links li {
+    text-align: right;
+  }
+}
+
+/* End Header */
+/* Start Solder */
+.solder .bullets {
+  direction: rtl;
+}
+
+/* End Solder */
+/*Start Services */
+.services .serv-box {
+  float: right;
+}
+.services .serv-box .info i {
+  float: right;
+}
+.services .serv-box .info h3 {
+  float: right;
+}
+.services .serv-box p {
+  text-align: right;
+}
+.services .serv-box a {
+  text-align: right;
+}
+
+/*End Services */
+/*Start Players */
+.players .player-box {
+  float: right;
+}
+.players .player-box .name {
+  text-align: right;
+}
+.players .player-box p {
+  text-align: right;
+}
+.players .player-box a {
+  text-align: right;
+}
+
+/*End Players */
+/*Start Lorem */
+.lorem .img-box {
+  float: right;
+}
+
+/*End Lorem */
+/*Start Footer */
+.footer .gallery {
+  float: right;
+}
+.footer .gallery .gallery-box .image {
+  float: right;
+}
+@media (max-width:767px) {
+  .footer .gallery .gallery-box .image {
+    float: none;
+    margin: 0 auto;
+  }
+}
+.footer .gallery .gallery-box .info {
+  float: right;
+}
+@media (max-width:767px) {
+  .footer .gallery .gallery-box .info {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.footer .details {
+  float: right;
+}
+.footer .details .working {
+  color: #9c9c9c;
+}
+.footer .contact {
+  float: right;
+}
+.footer .contact form {
+  text-align: right;
+}
+.footer .copyright span {
+  float: right;
+  text-align: right;
+}
+.footer .copyright span:last-of-type {
+  text-align: left;
+}
+
+/*End Footer */

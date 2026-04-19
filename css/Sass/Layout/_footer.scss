@@ -1,0 +1,193 @@
+/*Start Footer */
+.footer {
+    background-color: #d3d3d3;
+    margin-top: 40px;
+    overflow: hidden;
+
+    h3 {
+        color: #666666;
+    }
+
+    @media #{$maxMobile} {
+        text-align: center;
+    }
+
+    .gallery {
+        float: $float-left;
+        width: calc(50% - 20px);
+        padding: 20px 10px;
+
+        @media #{$maxSmall} {
+            width: 100%;
+            padding-right: 0;
+        }
+
+        .gallery-box {
+            overflow: hidden;
+
+            .image {
+                float: $float-left;
+                width: 150px;
+                height: 150px;
+
+                @media #{$maxMobile} {
+                    float: none;
+                    margin: 0 auto;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .info {
+                position: relative;
+                top: 20px;
+                float: $float-left;
+                width: calc(100% - 165px);
+                margin-left: 15px;
+
+                @media #{$maxMobile} {
+                    float: none;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+
+                h4 {
+                    margin: 0 0 10px;
+                    color: $redColor
+                }
+
+                p {
+                    margin: 0;
+                    line-height: 1.5;
+                    color: $grayColor;
+                }
+            }
+
+            &:not(:last-of-type) {
+                margin-bottom: 20px;
+            }
+
+        }
+    }
+
+    .details {
+        float: $float-left;
+        width: 25%;
+        padding: 20px 10px;
+
+        @media #{$maxSmall} {
+            width: 50%;
+        }
+
+        @media #{$maxMobile} {
+            float: none;
+            width: 100%;
+        }
+
+        ul {
+            margin-bottom: 20px;
+
+            li {
+                padding: 8px 0;
+                color: $grayColor;
+            }
+        }
+
+        .working {
+            color: $grayColor;
+
+            span {
+                &:first-child {
+                    color: #888888;
+                    display: block;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .contact {
+        float: $float-left;
+        width: 25%;
+        padding: 20px 10px;
+
+
+        @media #{$maxSmall} {
+            width: 50%;
+        }
+
+        @media #{$maxMobile} {
+            float: none;
+            width: 100%;
+        }
+
+        form {
+            text-align: $text-left;
+
+            input:not([type='submit']),
+            textarea {
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                width: 100%;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            textarea {
+                height: 150px;
+                resize: none;
+            }
+
+            [type='submit'] {
+                background-color: $redColor;
+                padding: 10px 30px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .copyright {
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        padding: 20px;
+        border-top: 1px solid $grayColor;
+        color: $grayColor;
+
+        span {
+            float: $float-left;
+            width: 50%;
+
+            @media #{$maxMobile} {
+                float: none;
+                display: inline-block;
+                width: 100%;
+
+            }
+
+            &:last-of-type {
+                text-align: $float-right;
+
+                @media #{$maxMobile} {
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}
+
+/*End Footer */

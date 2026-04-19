@@ -1,0 +1,94 @@
+/* Start Header */
+
+.header {
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+
+    .logo {
+        float: $float-left;
+        width: 30%;
+        text-align: $text-left;
+
+        @media #{$maxMobile} {
+            width: 100%;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        p {
+            margin: 10px 0 0;
+        }
+    }
+
+    .toggle {
+        width: 60px;
+        cursor: pointer;
+        background-color: $redColor;
+        border: none;
+        padding: 8px;
+        float: $float-right;
+        display: none;
+
+        @media #{$maxSmall} {
+            display: block;
+        }
+
+        span {
+            width: 100%;
+            height: 3px;
+            display: block;
+            background-color: white;
+
+            &:not(:last-of-type) {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .links {
+        float: $float-left;
+        width: 70%;
+        overflow: hidden;
+        background-color: $redColor;
+        border-radius: 10px;
+
+        @media #{$maxSmall} {
+            display: none;
+            width: 100%;
+            height: 0;
+            border-radius: 0;
+            margin-top: 10px;
+            transition: .5s;
+
+            &.active {
+                display: block;
+                height: 100%;
+            }
+        }
+
+        li {
+            float: $float-left;
+            width: 20%;
+            text-align: center;
+
+            @media #{$maxSmall} {
+                display: block;
+                float: none;
+                width: 100%;
+                text-align: $text-left;
+            }
+
+            a {
+                display: inline-block;
+                padding: 15px;
+                color: white;
+            }
+        }
+    }
+}
+
+/* End Header */

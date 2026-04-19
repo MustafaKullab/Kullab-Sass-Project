@@ -1,0 +1,19 @@
+* {
+    @include prefix(box-sizing, border-box, webkit o moz ms);
+}
+
+body {
+    font: {
+        family: Tahoma;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
