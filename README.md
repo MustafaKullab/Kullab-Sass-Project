@@ -12,6 +12,8 @@ The goal of this project is not just building a UI, but learning how to:
 - Use variables, mixins, and nesting
 - Organize CSS in a clean and scalable way
 
+<img width="1894" height="845" alt="image" src="https://github.com/user-attachments/assets/99966972-cf3f-4e49-846f-5dc5546b33b2" />
+
 ---
 
 ## ⚡ Features
